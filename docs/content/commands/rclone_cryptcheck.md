@@ -61,6 +61,9 @@ you what happened to it. These are reminiscent of diff files.
 rclone cryptcheck remote:path cryptedremote:path [flags]
 ```
 
+The default number of parallel checks is N=8. See the [--checkers=N](/docs/#checkers-n) option
+for more information.
+
 ## Options
 
 ```
